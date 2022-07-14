@@ -19,5 +19,15 @@
 }
 
 .column {
-  padding-top: 10px;
+  padding-top: 13px;
+  border: 2px solid red;
+}
+
+.light {
+  background-color: #F3F0ED;
+}
+
+.orange {
+  background-color: #FFA400;
+  font-size: 16px;
 }
