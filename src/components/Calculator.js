@@ -51,7 +51,7 @@ class Calculator extends Component {
           <Col className="light column border" onClick={() => this.operationHandler('7')}>7</Col>
           <Col className="light column border" onClick={() => this.operationHandler('8')}>8</Col>
           <Col className="light column border" onClick={() => this.operationHandler('9')}>9</Col>
-          <Col className="orange column border" onClick={() => this.operationHandler('*')}>*</Col>
+          <Col className="orange column border" onClick={() => this.operationHandler('x')}>x</Col>
         </Row>
         <Row>
           <Col className="light column border" onClick={() => this.operationHandler('4')}>4</Col>
