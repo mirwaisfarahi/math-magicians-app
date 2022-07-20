@@ -45,7 +45,7 @@ class Calculator extends Component {
           <Col className="light column border" onClick={() => this.operationHandler('AC')}>AC</Col>
           <Col className="light column border" onClick={() => this.operationHandler('+/-')}>+/-</Col>
           <Col className="light column border" onClick={() => this.operationHandler('%')}>%</Col>
-          <Col className="orange column border" onClick={() => this.operationHandler('/')}>/</Col>
+          <Col className="orange column border" onClick={() => this.operationHandler('÷')}>÷</Col>
         </Row>
         <Row>
           <Col className="light column border" onClick={() => this.operationHandler('7')}>7</Col>
