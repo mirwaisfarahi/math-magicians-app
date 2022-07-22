@@ -10,8 +10,8 @@ function Calculator() {
   });
 
   const operationHandler = (e) => {
-    const pressedButton = e.target.innerText;
-    const newState = calculate(state, pressedButton);
+    const pressedBtn = e.target.innerText;
+    const newState = calculate(state, pressedBtn);
     setState(newState);
   };
 
