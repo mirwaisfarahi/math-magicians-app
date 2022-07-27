@@ -1,21 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+* {
+  font-family: 'Indie Flower', cursive, sans-serif;
+  font-size: 30px;
+}
+
+.calculatorHeader {
+  margin: 0 9.5%;
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 0;
+  width: 74%;
+}
+
 .calculator {
-  margin: 100px auto;
-  width: 400px;
+  margin: 0;
+  width: 700px;
   background-color: #191b28;
   box-shadow: rgba(0, 0, 0, 0.19) 0 10px 20px, rgba(0, 0, 0, 0.23) 0 6px 6px;
   text-align: center;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 .border {
-  height: 50px;
+  height: 70px;
 }
 
 .result {
   text-align: right;
   padding-top: 0.5em;
   color: #fff;
-  font-size: 18px;
+  font-size: 28px;
 }
 
 .column {
@@ -29,5 +44,25 @@
 
 .orange {
   background-color: #ffa400;
-  font-size: 16px;
+  font-size: 36px;
+}
+
+.nav {
+  padding: 1% 8%;
+  font-weight: bold;
+}
+
+.navbrand {
+  font-size: 48px;
+}
+
+.home {
+  margin: 0 9.5%;
+  padding: 0;
+  width: 74%;
+}
+
+.heading,
+.quote {
+  padding: 2% 0%;
 }
