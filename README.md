@@ -30,6 +30,7 @@ To get a local copy up and running follow these simple example steps.
 - open a terminal
 - run ``` git clone git@github.com:mr-abdellah/math-magicians-app.git```
 - run ``` cd math-magicians-app```
+- install dependecies ``` npm install ```
 - run ```npm start```
 ### Usage
 
