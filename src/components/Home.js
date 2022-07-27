@@ -4,7 +4,7 @@ import math from '../images/math.png';
 
 const Home = () => (
   <div className="home">
-    <h3 className="heading">Welcome to our Page!</h3>
+    <h4 className="heading">Welcome to our Page!</h4>
     <Container>
       <Row>
         <Col xs="8">
