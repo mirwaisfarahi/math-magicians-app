@@ -19,7 +19,7 @@ const Calculator = () => {
 
   return (
     <div className="calculatorHeader">
-      <h3>Let&apos;s do some math!</h3>
+      <h4>Let&apos;s do some math!</h4>
       <Container className="calculator">
         <Row className="display-box">
           <Col className="bg-secondary border result">
