@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import {
-  Nav, Navbar, NavbarBrand, NavItem, NavLink,
+  Nav, Navbar, NavbarBrand, NavbarText, NavItem,
 } from 'reactstrap';
 
 const Header = () => (
@@ -10,17 +10,17 @@ const Header = () => (
     <Nav>
       <NavItem>
         <Link to="/" className="link">
-          <NavLink className="navLink"> Home </NavLink>
+          <NavbarText className="navLink"> Home </NavbarText>
         </Link>
       </NavItem>
       <NavItem>
         <Link to="/calculator" className="link">
-          <NavLink className="navLink"> Calculator </NavLink>
+          <NavbarText className="navLink"> Calculator </NavbarText>
         </Link>
       </NavItem>
       <NavItem>
         <Link to="/quote" className="link">
-          <NavLink className="navLink"> Quote </NavLink>
+          <NavbarText className="navLink"> Quote </NavbarText>
         </Link>
       </NavItem>
     </Nav>
