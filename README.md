@@ -14,7 +14,8 @@
 
 ## Live Demo
 
-[Live Demo](https://mirwaisfarahi.github.io/math-magicians-app/)
+[herokuapp based deployment](https://mirwaisfarahi-math-magicians.herokuapp.com/)
+[netlify based deployment](https://mirwaisfarahi-math-magicians.netlify.app/)
 
 ## Getting Started
 
