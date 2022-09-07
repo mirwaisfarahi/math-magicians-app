@@ -56,6 +56,10 @@
   font-size: 48px;
 }
 
+.link {
+  padding-left: 30px;
+}
+
 .home {
   margin: 0 9.5%;
   padding: 0;
